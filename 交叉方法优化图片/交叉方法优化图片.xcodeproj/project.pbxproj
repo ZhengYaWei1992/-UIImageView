@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6322101E694D6A009A2108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A63220F1E694D6A009A2108 /* main.m */; };
+		8A6322131E694D6A009A2108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6322121E694D6A009A2108 /* AppDelegate.m */; };
+		8A6322161E694D6A009A2108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6322151E694D6A009A2108 /* ViewController.m */; };
+		8A6322191E694D6A009A2108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6322171E694D6A009A2108 /* Main.storyboard */; };
+		8A63221C1E694D6A009A2108 /* ________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A63221A1E694D6A009A2108 /* ________.xcdatamodeld */; };
+		8A63221E1E694D6A009A2108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A63221D1E694D6A009A2108 /* Assets.xcassets */; };
+		8A6322211E694D6A009A2108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A63221F1E694D6A009A2108 /* LaunchScreen.storyboard */; };
+		8A63222C1E694D6B009A2108 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A63222B1E694D6B009A2108 /* ________Tests.m */; };
+		8A6322371E694D6B009A2108 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6322361E694D6B009A2108 /* ________UITests.m */; };
+		8A6322461E694DEA009A2108 /* UIImageView+Misaligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6322451E694DEA009A2108 /* UIImageView+Misaligned.m */; };
+		8A6322481E694F37009A2108 /* 美女16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A6322471E694F37009A2108 /* 美女16.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6322281E694D6B009A2108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6322031E694D6A009A2108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A63220A1E694D6A009A2108;
+			remoteInfo = "交叉方法优化图片";
+		};
+		8A6322331E694D6B009A2108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6322031E694D6A009A2108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A63220A1E694D6A009A2108;
+			remoteInfo = "交叉方法优化图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A63220B1E694D6A009A2108 /* 交叉方法优化图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "交叉方法优化图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A63220F1E694D6A009A2108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A6322111E694D6A009A2108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A6322121E694D6A009A2108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A6322141E694D6A009A2108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A6322151E694D6A009A2108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A6322181E694D6A009A2108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A63221B1E694D6A009A2108 /* ________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "________.xcdatamodel"; sourceTree = "<group>"; };
+		8A63221D1E694D6A009A2108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6322201E694D6A009A2108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6322221E694D6A009A2108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6322271E694D6B009A2108 /* 交叉方法优化图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "交叉方法优化图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A63222B1E694D6B009A2108 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		8A63222D1E694D6B009A2108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6322321E694D6B009A2108 /* 交叉方法优化图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "交叉方法优化图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6322361E694D6B009A2108 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		8A6322381E694D6B009A2108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6322441E694DEA009A2108 /* UIImageView+Misaligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Misaligned.h"; sourceTree = "<group>"; };
+		8A6322451E694DEA009A2108 /* UIImageView+Misaligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Misaligned.m"; sourceTree = "<group>"; };
+		8A6322471E694F37009A2108 /* 美女16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女16.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6322081E694D6A009A2108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6322241E694D6B009A2108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A63222F1E694D6B009A2108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6322021E694D6A009A2108 = {
+			isa = PBXGroup;
+			children = (
+				8A63220D1E694D6A009A2108 /* 交叉方法优化图片 */,
+				8A63222A1E694D6B009A2108 /* 交叉方法优化图片Tests */,
+				8A6322351E694D6B009A2108 /* 交叉方法优化图片UITests */,
+				8A63220C1E694D6A009A2108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A63220C1E694D6A009A2108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A63220B1E694D6A009A2108 /* 交叉方法优化图片.app */,
+				8A6322271E694D6B009A2108 /* 交叉方法优化图片Tests.xctest */,
+				8A6322321E694D6B009A2108 /* 交叉方法优化图片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A63220D1E694D6A009A2108 /* 交叉方法优化图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8A6322111E694D6A009A2108 /* AppDelegate.h */,
+				8A6322121E694D6A009A2108 /* AppDelegate.m */,
+				8A6322141E694D6A009A2108 /* ViewController.h */,
+				8A6322151E694D6A009A2108 /* ViewController.m */,
+				8A6322441E694DEA009A2108 /* UIImageView+Misaligned.h */,
+				8A6322451E694DEA009A2108 /* UIImageView+Misaligned.m */,
+				8A6322471E694F37009A2108 /* 美女16.jpg */,
+				8A6322171E694D6A009A2108 /* Main.storyboard */,
+				8A63221D1E694D6A009A2108 /* Assets.xcassets */,
+				8A63221F1E694D6A009A2108 /* LaunchScreen.storyboard */,
+				8A6322221E694D6A009A2108 /* Info.plist */,
+				8A63221A1E694D6A009A2108 /* ________.xcdatamodeld */,
+				8A63220E1E694D6A009A2108 /* Supporting Files */,
+			);
+			path = "交叉方法优化图片";
+			sourceTree = "<group>";
+		};
+		8A63220E1E694D6A009A2108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A63220F1E694D6A009A2108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A63222A1E694D6B009A2108 /* 交叉方法优化图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A63222B1E694D6B009A2108 /* ________Tests.m */,
+				8A63222D1E694D6B009A2108 /* Info.plist */,
+			);
+			path = "交叉方法优化图片Tests";
+			sourceTree = "<group>";
+		};
+		8A6322351E694D6B009A2108 /* 交叉方法优化图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6322361E694D6B009A2108 /* ________UITests.m */,
+				8A6322381E694D6B009A2108 /* Info.plist */,
+			);
+			path = "交叉方法优化图片UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A63220A1E694D6A009A2108 /* 交叉方法优化图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A63223B1E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片" */;
+			buildPhases = (
+				8A6322071E694D6A009A2108 /* Sources */,
+				8A6322081E694D6A009A2108 /* Frameworks */,
+				8A6322091E694D6A009A2108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "交叉方法优化图片";
+			productName = "交叉方法优化图片";
+			productReference = 8A63220B1E694D6A009A2108 /* 交叉方法优化图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6322261E694D6B009A2108 /* 交叉方法优化图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A63223E1E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片Tests" */;
+			buildPhases = (
+				8A6322231E694D6B009A2108 /* Sources */,
+				8A6322241E694D6B009A2108 /* Frameworks */,
+				8A6322251E694D6B009A2108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6322291E694D6B009A2108 /* PBXTargetDependency */,
+			);
+			name = "交叉方法优化图片Tests";
+			productName = "交叉方法优化图片Tests";
+			productReference = 8A6322271E694D6B009A2108 /* 交叉方法优化图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6322311E694D6B009A2108 /* 交叉方法优化图片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6322411E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片UITests" */;
+			buildPhases = (
+				8A63222E1E694D6B009A2108 /* Sources */,
+				8A63222F1E694D6B009A2108 /* Frameworks */,
+				8A6322301E694D6B009A2108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6322341E694D6B009A2108 /* PBXTargetDependency */,
+			);
+			name = "交叉方法优化图片UITests";
+			productName = "交叉方法优化图片UITests";
+			productReference = 8A6322321E694D6B009A2108 /* 交叉方法优化图片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6322031E694D6A009A2108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhengyawei;
+				TargetAttributes = {
+					8A63220A1E694D6A009A2108 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+					};
+					8A6322261E694D6B009A2108 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A63220A1E694D6A009A2108;
+					};
+					8A6322311E694D6B009A2108 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A63220A1E694D6A009A2108;
+					};
+				};
+			};
+			buildConfigurationList = 8A6322061E694D6A009A2108 /* Build configuration list for PBXProject "交叉方法优化图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6322021E694D6A009A2108;
+			productRefGroup = 8A63220C1E694D6A009A2108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A63220A1E694D6A009A2108 /* 交叉方法优化图片 */,
+				8A6322261E694D6B009A2108 /* 交叉方法优化图片Tests */,
+				8A6322311E694D6B009A2108 /* 交叉方法优化图片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6322091E694D6A009A2108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6322211E694D6A009A2108 /* LaunchScreen.storyboard in Resources */,
+				8A63221E1E694D6A009A2108 /* Assets.xcassets in Resources */,
+				8A6322191E694D6A009A2108 /* Main.storyboard in Resources */,
+				8A6322481E694F37009A2108 /* 美女16.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6322251E694D6B009A2108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6322301E694D6B009A2108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6322071E694D6A009A2108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6322161E694D6A009A2108 /* ViewController.m in Sources */,
+				8A63221C1E694D6A009A2108 /* ________.xcdatamodeld in Sources */,
+				8A6322131E694D6A009A2108 /* AppDelegate.m in Sources */,
+				8A6322461E694DEA009A2108 /* UIImageView+Misaligned.m in Sources */,
+				8A6322101E694D6A009A2108 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6322231E694D6B009A2108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A63222C1E694D6B009A2108 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A63222E1E694D6B009A2108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6322371E694D6B009A2108 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6322291E694D6B009A2108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A63220A1E694D6A009A2108 /* 交叉方法优化图片 */;
+			targetProxy = 8A6322281E694D6B009A2108 /* PBXContainerItemProxy */;
+		};
+		8A6322341E694D6B009A2108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A63220A1E694D6A009A2108 /* 交叉方法优化图片 */;
+			targetProxy = 8A6322331E694D6B009A2108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6322171E694D6A009A2108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6322181E694D6A009A2108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A63221F1E694D6A009A2108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6322201E694D6A009A2108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6322391E694D6B009A2108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A63223A1E694D6B009A2108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A63223C1E694D6B009A2108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A63223D1E694D6B009A2108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A63223F1E694D6B009A2108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/交叉方法优化图片.app/交叉方法优化图片";
+			};
+			name = Debug;
+		};
+		8A6322401E694D6B009A2108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/交叉方法优化图片.app/交叉方法优化图片";
+			};
+			name = Release;
+		};
+		8A6322421E694D6B009A2108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "交叉方法优化图片";
+			};
+			name = Debug;
+		};
+		8A6322431E694D6B009A2108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = "交叉方法优化图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengyawei.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "交叉方法优化图片";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6322061E694D6A009A2108 /* Build configuration list for PBXProject "交叉方法优化图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6322391E694D6B009A2108 /* Debug */,
+				8A63223A1E694D6B009A2108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A63223B1E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A63223C1E694D6B009A2108 /* Debug */,
+				8A63223D1E694D6B009A2108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A63223E1E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A63223F1E694D6B009A2108 /* Debug */,
+				8A6322401E694D6B009A2108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A6322411E694D6B009A2108 /* Build configuration list for PBXNativeTarget "交叉方法优化图片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6322421E694D6B009A2108 /* Debug */,
+				8A6322431E694D6B009A2108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A63221A1E694D6A009A2108 /* ________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A63221B1E694D6A009A2108 /* ________.xcdatamodel */,
+			);
+			currentVersion = 8A63221B1E694D6A009A2108 /* ________.xcdatamodel */;
+			path = "________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A6322031E694D6A009A2108 /* Project object */;
+}
